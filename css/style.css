@@ -3,6 +3,7 @@
 :root {
     --corPrincipal: #8d6c4d;
     --textoBranco: #fff;
+    --tituloAmraelo: #f7a518;
 }
 
 * {
@@ -18,12 +19,12 @@ header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 30px;
 }
 
 header img {
     grid-column: 2 / 5; 
-    width: 250px;
+    width: 150px;
     height: auto;
 }
 
@@ -40,4 +41,31 @@ nav ul {
 
 nav ul li {
     color: var(--textoBranco);
+}
+#final{
+    display: grid;
+    background-color: var(--corPrincipal);
+    color: var(--textoBranco);
+    padding: 60px 30px;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+#final img{
+    grid-column: 12/13;
+}
+#final h1{
+    grid-column: 1/13;
+    margin-bottom: 30px;
+    color: var(--tituloAmraelo);
+}
+#final p{
+    grid-column: 1/13;
+}
+#final button{
+    grid-column: 1/13;
+    border-radius: 30px;
+    width: 100px;
+    background-color: var(--tituloAmraelo);
+    color: var(--textoBranco);
+    height: 50px;
 }
