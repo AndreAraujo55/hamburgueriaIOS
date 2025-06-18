@@ -53,18 +53,18 @@ nav ul li {
     font-size: x-large;
 }
 #final img{
-    grid-column: 8/13;
+    grid-column: 9/13;
 }
 #final h1{
-    grid-column: 4/13;
+    grid-column: 4 / 9;
     margin-bottom: 30px;
     color: var(--tituloAmraelo);
 }
 #final p{
-    grid-column: 4/13;
+    grid-column: 4 / 9;
 }
 #final button{
-    grid-column: 1/13;
+    grid-column: 4 / 9;
     border-radius: 30px;
     width: 100px;
     background-color: var(--tituloAmraelo);
@@ -72,5 +72,5 @@ nav ul li {
     height: 50px;
 }
 #final button{
-    grid-column: 4/13;
+    
 }
